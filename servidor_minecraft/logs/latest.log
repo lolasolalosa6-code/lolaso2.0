@@ -1,0 +1,794 @@
+[18Oct2025 17:48:46.052] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[18Oct2025 17:48:46.055] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[18Oct2025 17:48:48.832] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[18Oct2025 17:48:48.915] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/lolaso2.0/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[18Oct2025 17:48:49.327] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/lolaso2.0/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[18Oct2025 17:48:49.328] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/lolaso2.0/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[18Oct2025 17:48:49.330] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/lolaso2.0/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[18Oct2025 17:48:49.331] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/lolaso2.0/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[18Oct2025 17:48:49.845] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
+[18Oct2025 17:48:51.983] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[18Oct2025 17:48:52.141] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.tradecycling.MixinConnector]
+[18Oct2025 17:48:52.143] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[18Oct2025 17:48:52.312] [main/INFO] [Puzzles Lib/]: Loading 46 mods:
+	- alexsmobs 1.22.9
+	- appleskin 2.5.1+mc1.20.1
+	- architectury 9.2.14
+	- argentinas_delight 1.1
+	- artifacts 9.5.16
+		\-- expandability 9.0.4
+	- bettervillage 3.3.1
+	- botarium 2.3.0
+	- chefsdelight 1.0.3-forge-1.20.1
+	- citadel 2.6.2
+	- cloth_config 11.1.136
+	- create 6.0.6
+		|-- flywheel 1.0.4
+		|-- mixinextras 0.4.1
+		\-- ponder 1.0.80
+	- create_deep_dark 1.7.0
+	- create_new_age 1.1.4
+	- create_radar 0.3
+	- createbigcannons 5.9.1
+	- createdieselgenerators 1.20.1-1.3.5
+	- curios 5.11.1+1.20.1
+	- enchantinginfuser 8.0.3
+	- endersdelight 1.1.3
+	- farmersdelight 1.20.1-1.2.9
+	- forge 47.3.7
+	- glitchcore 0.0.1.1
+	- ironchest 1.20.1-14.4.3
+	- jei 15.20.0.114
+	- libraryferret 4.0.0
+	- minecraft 1.20.1
+	- miners_delight 1.20.1-1.2.3
+	- mynethersdelight 1.20.1-1.7.5
+	- puzzleslib 8.1.25
+		\-- puzzlesaccessapi 8.0.7
+	- ritchiesprojectilelib 2.1.0
+	- securitycraft 1.10.0.1
+	- solcarrot 1.15.0
+	- some_assembly_required 1.20.1-4.2.1
+	- sophisticatedbackpacks 3.24.2.1341
+	- sophisticatedcore 1.2.96.1182
+	- terrablender 3.0.1.8
+	- terralith 2.4.5
+	- trade_cycling 1.20.1-1.0.18
+	- voicechat 1.20.1-2.6.4
+		\-- voicechat_api 2.6.0
+	- weaponleveling 1.20.1-2.2.2
+		\-- midnightlib 1.4.2
+[18Oct2025 17:48:53.359] [main/WARN] [mixin/]: Error loading class: net/mehvahdjukaar/amendments/events/behaviors/InteractEvents (java.lang.ClassNotFoundException: net.mehvahdjukaar.amendments.events.behaviors.InteractEvents)
+[18Oct2025 17:48:53.359] [main/WARN] [mixin/]: @Mixin target net.mehvahdjukaar.amendments.events.behaviors.InteractEvents was not found mynethersdelight.mixins.json:amendments.InteractEventsMixin
+[18Oct2025 17:48:53.371] [main/WARN] [mixin/]: Error loading class: com/dsvv/cbcat/cannon/twin_autocannon/contraption/MountedTwinAutocannonContraption (java.lang.ClassNotFoundException: com.dsvv.cbcat.cannon.twin_autocannon.contraption.MountedTwinAutocannonContraption)
+[18Oct2025 17:48:53.371] [main/WARN] [mixin/]: @Mixin target com.dsvv.cbcat.cannon.twin_autocannon.contraption.MountedTwinAutocannonContraption was not found create_radar.mixins.json:AutoCannonAccessor
+[18Oct2025 17:48:53.372] [main/WARN] [mixin/]: Error loading class: com/dsvv/cbcat/cannon/heavy_autocannon/contraption/MountedHeavyAutocannonContraption (java.lang.ClassNotFoundException: com.dsvv.cbcat.cannon.heavy_autocannon.contraption.MountedHeavyAutocannonContraption)
+[18Oct2025 17:48:53.373] [main/WARN] [mixin/]: @Mixin target com.dsvv.cbcat.cannon.heavy_autocannon.contraption.MountedHeavyAutocannonContraption was not found create_radar.mixins.json:AutoCannonAccessor
+[18Oct2025 17:48:53.557] [main/WARN] [mixin/]: Error loading class: xfacthd/framedblocks/common/blockentity/doubled/FramedAdjustableDoubleBlockEntity (java.lang.ClassNotFoundException: xfacthd.framedblocks.common.blockentity.doubled.FramedAdjustableDoubleBlockEntity)
+[18Oct2025 17:48:53.557] [main/WARN] [mixin/]: @Mixin target xfacthd.framedblocks.common.blockentity.doubled.FramedAdjustableDoubleBlockEntity was not found createbigcannons.mixins.json:compat.FramedAdjustableDoubleBlockEntityAccessor
+[18Oct2025 17:48:53.703] [main/WARN] [mixin/]: Error loading class: com/theishiopian/parrying/Entity/DaggerEntity (java.lang.ClassNotFoundException: com.theishiopian.parrying.Entity.DaggerEntity)
+[18Oct2025 17:48:53.706] [main/WARN] [mixin/]: Error loading class: com/mrcrayfish/guns/common/Gun (java.lang.ClassNotFoundException: com.mrcrayfish.guns.common.Gun)
+[18Oct2025 17:48:53.708] [main/WARN] [mixin/]: Error loading class: com/mrcrayfish/guns/item/GunItem (java.lang.ClassNotFoundException: com.mrcrayfish.guns.item.GunItem)
+[18Oct2025 17:48:53.711] [main/WARN] [mixin/]: Error loading class: slimeknights/tconstruct/tools/item/ModifiableBowItem (java.lang.ClassNotFoundException: slimeknights.tconstruct.tools.item.ModifiableBowItem)
+[18Oct2025 17:48:53.714] [main/WARN] [mixin/]: Error loading class: slimeknights/tconstruct/tools/item/ModifiableCrossbowItem (java.lang.ClassNotFoundException: slimeknights.tconstruct.tools.item.ModifiableCrossbowItem)
+[18Oct2025 17:48:53.716] [main/WARN] [mixin/]: Error loading class: com/theishiopian/parrying/Entity/SpearEntity (java.lang.ClassNotFoundException: com.theishiopian.parrying.Entity.SpearEntity)
+[18Oct2025 17:48:53.718] [main/WARN] [mixin/]: Error loading class: net/bettercombat/logic/WeaponRegistry (java.lang.ClassNotFoundException: net.bettercombat.logic.WeaponRegistry)
+[18Oct2025 17:48:54.031] [main/WARN] [mixin/]: Error loading class: com/dsvv/cbcat/cannon/twin_autocannon/contraption/MountedTwinAutocannonContraption (java.lang.ClassNotFoundException: com.dsvv.cbcat.cannon.twin_autocannon.contraption.MountedTwinAutocannonContraption)
+[18Oct2025 17:48:54.033] [main/WARN] [mixin/]: Error loading class: com/dsvv/cbcat/cannon/heavy_autocannon/contraption/MountedHeavyAutocannonContraption (java.lang.ClassNotFoundException: com.dsvv.cbcat.cannon.heavy_autocannon.contraption.MountedHeavyAutocannonContraption)
+[18Oct2025 17:48:54.034] [main/WARN] [mixin/]: Error loading class: com/dsvv/cbcat/cannon/twin_autocannon/contraption/MountedTwinAutocannonContraption (java.lang.ClassNotFoundException: com.dsvv.cbcat.cannon.twin_autocannon.contraption.MountedTwinAutocannonContraption)
+[18Oct2025 17:48:54.035] [main/WARN] [mixin/]: Error loading class: com/dsvv/cbcat/cannon/heavy_autocannon/contraption/MountedHeavyAutocannonContraption (java.lang.ClassNotFoundException: com.dsvv.cbcat.cannon.heavy_autocannon.contraption.MountedHeavyAutocannonContraption)
+[18Oct2025 17:48:54.096] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[18Oct2025 17:48:54.562] [main/WARN] [net.minecraft.SystemReport/]: Failed retrieving info for group hardware
+java.lang.NoClassDefFoundError: com/sun/jna/Platform
+	at oshi.SystemInfo.<clinit>(SystemInfo.java:60) ~[oshi-core-6.2.2.jar%2369!/:6.2.2]
+	at net.minecraft.SystemReport.m_143564_(SystemReport.java:52) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.SystemReport.m_143516_(SystemReport.java:82) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.SystemReport.<init>(SystemReport.java:52) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.CrashReport.<init>(CrashReport.java:31) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.CrashReport.m_127529_(CrashReport.java:216) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.server.Main.main(Main.java:116) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+Caused by: java.lang.ClassNotFoundException: com.sun.jna.Platform
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	... 22 more
+[18Oct2025 17:49:00.407] [main/WARN] [mixin/]: @Final field f_35975_:Lnet/minecraft/core/NonNullList; in weaponleveling-common.mixins.json:InventoryMixin should be final
+[18Oct2025 17:49:01.313] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[18Oct2025 17:49:01.353] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[18Oct2025 17:49:01.588] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[18Oct2025 17:49:01.591] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[18Oct2025 17:49:01.598] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[18Oct2025 17:49:01.600] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[18Oct2025 17:49:01.607] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[18Oct2025 17:49:01.608] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[18Oct2025 17:49:01.609] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[18Oct2025 17:49:01.613] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[18Oct2025 17:49:01.836] [modloading-worker-0/INFO] [create_new_age/]: Hello 1.20.1 Create!
+[18Oct2025 17:49:02.015] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[18Oct2025 17:49:02.015] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[18Oct2025 17:49:02.468] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Initializing Create Radar!
+[18Oct2025 17:49:02.473] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering Items!
+[18Oct2025 17:49:02.533] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering blocks!
+[18Oct2025 17:49:02.556] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering block entity types!
+[18Oct2025 17:49:02.560] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering CreativeTabs!
+[18Oct2025 17:49:02.567] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering Lang!
+[18Oct2025 17:49:02.583] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering CBC Compat Items!
+[18Oct2025 17:49:02.592] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.6 initializing! Commit hash: 338bfa0aec952fa51656e8f61bd621ca9b3b2e00
+[18Oct2025 17:49:03.264] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[18Oct2025 17:49:03.297] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[18Oct2025 17:49:03.310] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for enchantinginfuser:main
+[18Oct2025 17:49:04.342] [main/WARN] [mixin/]: Error loading class: com/dsvv/cbcat/cannon/twin_autocannon/contraption/MountedTwinAutocannonContraption (java.lang.ClassNotFoundException: com.dsvv.cbcat.cannon.twin_autocannon.contraption.MountedTwinAutocannonContraption)
+[18Oct2025 17:49:04.343] [main/WARN] [mixin/]: Error loading class: com/dsvv/cbcat/cannon/heavy_autocannon/contraption/MountedHeavyAutocannonContraption (java.lang.ClassNotFoundException: com.dsvv.cbcat.cannon.heavy_autocannon.contraption.MountedHeavyAutocannonContraption)
+[18Oct2025 17:49:06.773] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:global_loot_modifier_serializers: The object RecordCodec[UnitDecoder[vectorwing.farmersdelight.common.loot.modifier.AddItemModifier$$Lambda$12197/0x00007593915b33f0@6b890860] * Field[conditions: passthrough[flatXmapped]] * Field[item: net.minecraftforge.registries.ForgeRegistry$RegistryCodec@5796196b] * OptionalFieldCodec[count: Int][xmapped]] has been registered twice for the same name farmersdelight:add_item.
+[18Oct2025 17:49:06.773] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:global_loot_modifier_serializers: The object RecordCodec[UnitDecoder[vectorwing.farmersdelight.common.loot.modifier.ReplaceItemModifier$$Lambda$12202/0x00007593915b3f30@6aa13003] * Field[conditions: passthrough[flatXmapped]] * Field[removed_item: net.minecraftforge.registries.ForgeRegistry$RegistryCodec@5796196b] * Field[added_item: net.minecraftforge.registries.ForgeRegistry$RegistryCodec@5796196b] * OptionalFieldCodec[count: Int][xmapped]] has been registered twice for the same name farmersdelight:replace_item.
+[18Oct2025 17:49:06.773] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:global_loot_modifier_serializers: The object RecordCodec[UnitDecoder[vectorwing.farmersdelight.common.loot.modifier.AddLootTableModifier$$Lambda$12205/0x00007593915b4600@444ce7a0] * Field[conditions: passthrough[flatXmapped]] * Field[lootTable: String[comapFlatMapped]]] has been registered twice for the same name farmersdelight:add_loot_table.
+[18Oct2025 17:49:06.773] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:global_loot_modifier_serializers: The object RecordCodec[UnitDecoder[vectorwing.farmersdelight.common.loot.modifier.PastrySlicingModifier$$Lambda$12208/0x00007593915b4cb0@67a52d41] * Field[conditions: passthrough[flatXmapped]] * Field[slice: net.minecraftforge.registries.ForgeRegistry$RegistryCodec@5796196b]] has been registered twice for the same name farmersdelight:pastry_slicing.
+[18Oct2025 17:49:07.048] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 20
+[18Oct2025 17:49:07.172] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering Display Sources!
+[18Oct2025 17:49:07.360] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[18Oct2025 17:49:07.368] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[18Oct2025 17:49:07.369] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[18Oct2025 17:49:07.370] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[18Oct2025 17:49:07.726] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[18Oct2025 17:49:07.906] [main/INFO] [com.happysg.radar.CreateRadar/]: Registered contraption type 'create_radar:radar_bearing'
+[18Oct2025 17:49:07.987] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 8.0.7 Target: null
+[18Oct2025 17:49:07.988] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[18Oct2025 17:49:08.137] [main/INFO] [citadel/]: adding citadel surface rules via terrablender...
+[18Oct2025 17:49:08.139] [main/INFO] [citadel/]: Added 0 vanilla biome surface rule types via terrablender
+[18Oct2025 17:49:08.139] [main/INFO] [citadel/]: Added 0 modded biome surface rule types via terrablender
+[18Oct2025 17:49:08.231] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[18Oct2025 17:49:08.232] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[18Oct2025 17:49:08.915] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: OUTDATED Current: 1.20.1-2.6.4 Target: 1.20.1-2.6.6
+[18Oct2025 17:49:08.916] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [trade_cycling] Starting version check at https://update.maxhenkel.de/forge/trade_cycling
+[18Oct2025 17:49:09.012] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [trade_cycling] Found status: AHEAD Current: 1.20.1-1.0.18 Target: null
+[18Oct2025 17:49:09.013] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[18Oct2025 17:49:09.151] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.0.1 Target: null
+[18Oct2025 17:49:09.151] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[18Oct2025 17:49:09.160] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 8.1.25 Target: 8.1.33
+[18Oct2025 17:49:09.161] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/enchantinginfuser.json
+[18Oct2025 17:49:09.174] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Found status: UP_TO_DATE Current: 8.0.3 Target: null
+[18Oct2025 17:49:11.087] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18Oct2025 17:49:13.268] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/lolaso2.0/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23179!/assets/.mcassetsroot' uses unexpected schema
+[18Oct2025 17:49:13.268] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/lolaso2.0/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23179!/data/.mcassetsroot' uses unexpected schema
+[18Oct2025 17:49:13.476] [main/INFO] [com.simibubi.create.Create/]: Created 266 recipes which will be injected into the game
+[18Oct2025 17:49:13.493] [main/INFO] [com.simibubi.create.Create/]: Created 21 tags which will be injected into the game
+[18Oct2025 17:49:14.816] [main/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[18Oct2025 17:49:15.993] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[18Oct2025 17:49:16.581] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:mynethersdelight:blocks/blackstone_cooking_pot
+com.google.gson.JsonSyntaxException: Unknown type 'mynethersdelight:copy_meal'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:149) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23184!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23184!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[18Oct2025 17:49:16.628] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:create_radar:blocks/radar_guidance_block
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'create_radar:radar_guidance_block'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23184!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23184!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[18Oct2025 17:49:17.128] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe nethersdelight:cutting/hoglin_sausage_alt
+com.google.gson.JsonSyntaxException: Unknown item 'nethersdelight:hoglin_loin'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23184!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23184!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at vectorwing.farmersdelight.common.crafting.CuttingBoardRecipe$Serializer.readIngredients(CuttingBoardRecipe.java:195) ~[FarmersDelight-1.20.1-1.2.9%20(1).jar%23159!/:1.20.1-1.2.9]
+	at vectorwing.farmersdelight.common.crafting.CuttingBoardRecipe$Serializer.fromJson(CuttingBoardRecipe.java:172) ~[FarmersDelight-1.20.1-1.2.9%20(1).jar%23159!/:1.20.1-1.2.9]
+	at vectorwing.farmersdelight.common.crafting.CuttingBoardRecipe$Serializer.m_6729_(CuttingBoardRecipe.java:164) ~[FarmersDelight-1.20.1-1.2.9%20(1).jar%23159!/:1.20.1-1.2.9]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23184!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[18Oct2025 17:49:17.184] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersrespite:chilidog_alt
+com.google.gson.JsonSyntaxException: Unknown item 'farmersrespite:blazing_chili'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23184!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23184!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_44275_(ShapelessRecipe.java:104) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:89) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23184!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[18Oct2025 17:49:17.217] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 39 recipes
+[18Oct2025 17:49:17.371] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3792 advancements
+[18Oct2025 17:49:17.396] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
+com.google.gson.JsonSyntaxException: Unknown type 'alternative'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraftforge.common.loot.IGlobalLootModifier.lambda$static$1(IGlobalLootModifier.java:39) ~[forge-1.20.1-47.3.7-universal.jar%23184!/:?]
+	at com.mojang.serialization.Decoder$1.lambda$decode$1(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.Decoder$1.decode(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$7.decode(RecordCodecBuilder.java:406) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$3(KeyDispatchCodec.java:67) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:58) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.20.1-47.3.7-universal.jar%23184!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.20.1-47.3.7-universal.jar%23184!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[18Oct2025 17:49:17.400] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id miners_delight:scavenging_tentacles - error: Unknown type 'alternative'
+[18Oct2025 17:49:17.401] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
+com.google.gson.JsonSyntaxException: Unknown type 'alternative'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraftforge.common.loot.IGlobalLootModifier.lambda$static$1(IGlobalLootModifier.java:39) ~[forge-1.20.1-47.3.7-universal.jar%23184!/:?]
+	at com.mojang.serialization.Decoder$1.lambda$decode$1(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.Decoder$1.decode(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$5.decode(RecordCodecBuilder.java:323) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$3(KeyDispatchCodec.java:67) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:58) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.20.1-47.3.7-universal.jar%23184!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.20.1-47.3.7-universal.jar%23184!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[18Oct2025 17:49:17.402] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id miners_delight:scavenging_silverfish - error: Unknown type 'alternative'
+[18Oct2025 17:49:17.412] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[18Oct2025 17:49:17.419] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio entities
+[18Oct2025 17:49:17.423] [main/INFO] [someassemblyrequired.SomeAssemblyRequired/]: Loaded 67 sandwich ingredients
+[18Oct2025 17:49:19.332] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[18Oct2025 17:49:19.333] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[18Oct2025 17:49:19.333] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[18Oct2025 17:49:19.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[18Oct2025 17:49:19.542] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[18Oct2025 17:49:19.576] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[18Oct2025 17:49:19.677] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18Oct2025 17:49:19.677] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[18Oct2025 17:49:19.677] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18Oct2025 17:49:19.678] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[18Oct2025 17:49:19.720] [Server thread/INFO] [Puzzles Lib/]: Loading server config for enchantinginfuser
+[18Oct2025 17:49:19.723] [Thread-0/INFO] [Puzzles Lib/]: Reloading server config for enchantinginfuser
+[18Oct2025 17:49:19.728] [Thread-0/INFO] [Puzzles Lib/]: Reloading server config for enchantinginfuser
+[18Oct2025 17:49:19.911] [Server thread/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[18Oct2025 17:49:19.912] [Server thread/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[18Oct2025 17:49:19.953] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[18Oct2025 17:49:19.954] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[18Oct2025 17:49:19.957] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[18Oct2025 17:49:23.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[18Oct2025 17:49:27.386] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Oct2025 17:49:27.432] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Oct2025 17:49:27.433] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Oct2025 17:49:27.434] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Oct2025 17:49:27.434] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Oct2025 17:49:27.435] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Oct2025 17:49:27.435] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Oct2025 17:49:27.435] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Oct2025 17:49:27.676] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Oct2025 17:49:28.819] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Oct2025 17:49:28.824] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Oct2025 17:49:29.150] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Oct2025 17:49:29.963] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Oct2025 17:49:30.143] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Oct2025 17:49:30.666] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Oct2025 17:49:31.125] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Oct2025 17:49:31.625] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Oct2025 17:49:32.124] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
+[18Oct2025 17:49:32.456] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8832 ms
+[18Oct2025 17:49:32.457] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (12.765s)! For help, type "help"
+[18Oct2025 17:49:32.499] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[18Oct2025 17:49:32.499] [Server thread/INFO] [net.stardustlabs.terralith.Terralith/]: Thanks for choosing Terralith!
+[18Oct2025 17:49:32.501] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[18Oct2025 17:49:32.510] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice host is 'reviews-heath.gl.at.ply.gg'
+[18Oct2025 17:49:32.511] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 11899
+[18Oct2025 17:51:35.466] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: emilghj[/127.51.37.234:48375] logged in with entity id 115 at (160.3144392521635, -4.0, 3613.6695790919953)
+[18Oct2025 17:51:35.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emilghj joined the game
+[18Oct2025 17:51:37.629] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2170ms or 43 ticks behind
+[18Oct2025 17:52:05.735] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of emilghj (20)
+[18Oct2025 17:52:05.738] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to emilghj
+[18Oct2025 17:52:46.605] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: quackisa[/127.112.102.92:57879] logged in with entity id 569 at (145.32137502894943, 57.0, 3606.6878455837173)
+[18Oct2025 17:52:46.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: quackisa joined the game
+[18Oct2025 17:52:48.656] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of quackisa (20)
+[18Oct2025 17:52:48.657] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to quackisa
+[18Oct2025 17:54:27.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> funciona?
+[18Oct2025 17:54:35.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> non
+[18Oct2025 17:55:42.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> no tengo el pico aqui
+[18Oct2025 17:55:48.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> bueno yo puedo hacer una con el create
+[18Oct2025 17:56:00.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> una granja de xp
+[18Oct2025 17:56:00.471] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: quackisa lost connection: Disconnected
+[18Oct2025 17:56:00.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: quackisa left the game
+[18Oct2025 17:56:00.475] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client quackisa
+[18Oct2025 17:59:38.217] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: quackisa[/127.112.102.92:43037] logged in with entity id 2396 at (206.3760676330317, 64.0, 3731.555249212879)
+[18Oct2025 17:59:38.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: quackisa joined the game
+[18Oct2025 17:59:41.876] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of quackisa (20)
+[18Oct2025 17:59:41.877] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to quackisa
+[18Oct2025 18:00:05.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> la arregle
+[18Oct2025 18:00:49.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> no me carga la skinnnn
+[18Oct2025 18:00:56.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> q le hiciste?
+[18Oct2025 18:00:58.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> a
+[18Oct2025 18:01:17.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> quite una antorcha
+[18Oct2025 18:01:37.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> bno, vengo ahora
+[18Oct2025 18:01:39.966] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: quackisa lost connection: Disconnected
+[18Oct2025 18:01:39.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: quackisa left the game
+[18Oct2025 18:01:39.967] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client quackisa
+[18Oct2025 18:01:41.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> tt
+[18Oct2025 18:08:38.483] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: quackisa[/127.112.102.92:34273] logged in with entity id 4596 at (206.41341890084135, 64.0, 3737.9789020454696)
+[18Oct2025 18:08:38.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: quackisa joined the game
+[18Oct2025 18:08:44.690] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of quackisa (20)
+[18Oct2025 18:08:44.690] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to quackisa
+[18Oct2025 18:10:48.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> te habia visto con una skin de alex pero ya no
+[18Oct2025 18:10:50.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> q loco
+[18Oct2025 18:11:05.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> de verdad?
+[18Oct2025 18:11:11.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> q skin tengo?
+[18Oct2025 18:11:19.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> y, como cuanto duran pa bajar los mobs?
+[18Oct2025 18:11:21.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> yo solo veo la de alex
+[18Oct2025 18:11:31.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> una de steve te veo
+[18Oct2025 18:11:38.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> ni idea es de ves en cuando
+[18Oct2025 18:12:12.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> waos
+[18Oct2025 18:12:14.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> yo voy a hacer una granja de exp con wel create
+[18Oct2025 18:12:30.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> me quede aqui a ve klk
+[18Oct2025 18:12:36.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> tiene q funcionar
+[18Oct2025 18:12:38.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> tt
+[18Oct2025 18:12:40.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> deberia
+[18Oct2025 18:12:47.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> en verdad
+[18Oct2025 18:13:00.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> yo creo q nos falto algo
+[18Oct2025 18:13:07.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> el q
+[18Oct2025 18:13:33.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> yo veo en videos q la granja esta alta
+[18Oct2025 18:13:43.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> y no tan bajo
+[18Oct2025 18:14:32.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> zarek revivio
+[18Oct2025 18:15:46.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> y la arena de almas?
+[18Oct2025 18:16:01.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> ya la vi
+[18Oct2025 18:16:03.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> no me acuerdo, pero creo que en uno de los cofres de arriba
+[18Oct2025 18:20:49.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> duerme vro
+[18Oct2025 18:20:58.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> siento q hay lag
+[18Oct2025 18:21:05.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> un poco
+[18Oct2025 18:21:08.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> pense q era yo
+[18Oct2025 18:21:26.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> tal ves sea por que es temprano
+[18Oct2025 18:23:24.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> q hicimos con la granja entonces?
+[18Oct2025 18:23:32.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> la de exp
+[18Oct2025 18:23:36.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> ?
+[18Oct2025 18:23:38.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> ajam
+[18Oct2025 18:23:42.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> cual mas?
+[18Oct2025 18:23:55.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> la de hierro esta sabes
+[18Oct2025 18:24:17.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> con la de exp no se en verdad
+[18Oct2025 18:24:28.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> zarek era el q sabia disque
+[18Oct2025 18:32:38.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> duermee
+[18Oct2025 18:32:46.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> ya
+[18Oct2025 18:33:02.242] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xClas06[/127.12.45.0:32973] logged in with entity id 11055 at (-2402.5442792137715, 68.0, 1223.7376243001456)
+[18Oct2025 18:33:02.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xClas06 joined the game
+[18Oct2025 18:33:04.091] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of xClas06 (20)
+[18Oct2025 18:33:04.092] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to xClas06
+[18Oct2025 18:33:16.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> emil
+[18Oct2025 18:33:22.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> q
+[18Oct2025 18:33:23.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> emil
+[18Oct2025 18:33:27.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> cuando hiciste la transferencia?
+[18Oct2025 18:33:40.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> no la he hecho bro
+[18Oct2025 18:33:48.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> pusiste que no se elimine?
+[18Oct2025 18:33:51.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> es hoy que se acaba no?
+[18Oct2025 18:33:53.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> no me deja crear mas cuenta
+[18Oct2025 18:34:05.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> como asi
+[18Oct2025 18:34:15.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> osea no me deja poner mi numero de telefono
+[18Oct2025 18:34:22.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> tienes que crear la cuenta por tu telefono
+[18Oct2025 18:34:35.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> lolaso
+[18Oct2025 18:34:49.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> estoy full de cuentas en mi cel
+[18Oct2025 18:35:03.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> elimina las que no usen
+[18Oct2025 18:35:25.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> yo uso todas cro
+[18Oct2025 18:35:34.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> me dices para crearla y ya
+[18Oct2025 18:35:49.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> creala pls
+[18Oct2025 18:36:01.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> yo v hago el cambio ahora'
+[18Oct2025 18:37:25.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> bro
+[18Oct2025 18:37:28.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> ven a ver
+[18Oct2025 18:37:28.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> q
+[18Oct2025 18:37:33.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> voy
+[18Oct2025 18:37:45.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> voy a matar una vaca pa q vea
+[18Oct2025 18:38:17.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> a ya
+[18Oct2025 18:38:19.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> aora zi
+[18Oct2025 18:38:23.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> duro
+[18Oct2025 18:39:24.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> la carne sale cocinada
+[18Oct2025 18:39:30.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> lol
+[18Oct2025 18:39:33.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> por el fuego
+[18Oct2025 18:42:37.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: quackisa has made the advancement [Voluntary Exile]
+[18Oct2025 18:42:49.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> tenemos un problema
+[18Oct2025 18:43:05.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> coje una cuveta y llenala de leche
+[18Oct2025 18:43:12.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> y bebela
+[18Oct2025 18:44:26.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> me dieron experiencia por lo menos
+[18Oct2025 18:44:46.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> duerman chiqes
+[18Oct2025 18:45:01.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> omar
+[18Oct2025 18:45:35.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> y entonce?
+[18Oct2025 18:46:07.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> ...
+[18Oct2025 18:47:10.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> omar ta afk parece
+[18Oct2025 18:47:15.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> diabl
+[18Oct2025 18:52:28.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> ya casi tengo to los materiales para la granja de exp
+[18Oct2025 18:53:39.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> ese fue el piso
+[18Oct2025 18:53:45.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> tt
+[18Oct2025 18:57:43.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> afk por 1 min
+[18Oct2025 18:58:13.484] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: quackisa lost connection: Timed out
+[18Oct2025 18:58:13.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: quackisa left the game
+[18Oct2025 18:58:13.485] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client quackisa
+[18Oct2025 18:58:28.239] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: quackisa[/127.112.102.92:37145] logged in with entity id 19839 at (335.66580509147985, 62.0, 3862.7031834768204)
+[18Oct2025 18:58:28.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: quackisa joined the game
+[18Oct2025 18:58:28.541] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of quackisa (20)
+[18Oct2025 18:58:28.542] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to quackisa
+[18Oct2025 18:59:35.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> regrese
+[18Oct2025 18:59:47.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> q mal
+[18Oct2025 18:59:52.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> lol
+[18Oct2025 19:04:23.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> pene cuadrado
+[18Oct2025 19:04:29.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> lolaso
+[18Oct2025 19:04:36.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> q loco
+[18Oct2025 19:04:45.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> lolaso
+[18Oct2025 19:15:40.025] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xClas06 lost connection: Disconnected
+[18Oct2025 19:15:40.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xClas06 left the game
+[18Oct2025 19:15:40.026] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client xClas06
+[18Oct2025 19:19:46.118] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: emilghj lost connection: Disconnected
+[18Oct2025 19:19:46.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emilghj left the game
+[18Oct2025 19:19:46.119] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client emilghj
+[18Oct2025 19:27:59.584] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: emilghj[/127.240.82.34:39637] logged in with entity id 29239 at (152.69999998807907, 49.0, 3609.3933059976325)
+[18Oct2025 19:27:59.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emilghj joined the game
+[18Oct2025 19:28:29.267] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of emilghj (20)
+[18Oct2025 19:28:29.267] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to emilghj
+[18Oct2025 19:29:44.882] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xClas06[/127.12.45.0:58385] logged in with entity id 29469 at (-2398.4855986219986, 67.9375, 1213.394832873188)
+[18Oct2025 19:29:44.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xClas06 joined the game
+[18Oct2025 19:29:45.625] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of xClas06 (20)
+[18Oct2025 19:29:45.626] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to xClas06
+[18Oct2025 19:33:42.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> ...
+[18Oct2025 19:38:12.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xClas06 has reached the goal [Self-Driving Cart]
+[18Oct2025 19:41:56.843] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: megatuber06[/127.136.144.194:51023] logged in with entity id 33943 at (155.43663940160002, -4.0, 3609.00487434624)
+[18Oct2025 19:41:56.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 joined the game
+[18Oct2025 19:41:57.649] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of megatuber06 (20)
+[18Oct2025 19:41:57.649] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to megatuber06
+[18Oct2025 19:48:57.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> y la tortuga?
+[18Oct2025 19:49:06.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> detras de ti
+[18Oct2025 20:00:03.081] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: emilghj lost connection: Timed out
+[18Oct2025 20:00:03.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emilghj left the game
+[18Oct2025 20:00:03.082] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client emilghj
+[18Oct2025 20:01:44.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: quackisa has made the advancement [Cover Me with Diamonds]
+[18Oct2025 20:02:23.589] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: emilghj[/127.51.37.234:54411] logged in with entity id 40425 at (149.5, -4.0, 3607.5)
+[18Oct2025 20:02:23.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emilghj joined the game
+[18Oct2025 20:02:52.933] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of emilghj (20)
+[18Oct2025 20:02:52.934] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to emilghj
+[18Oct2025 20:05:34.326] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 lost connection: Disconnected
+[18Oct2025 20:05:34.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 left the game
+[18Oct2025 20:05:34.327] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client megatuber06
+[18Oct2025 20:11:18.741] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/43185, l='ServerLevel[world]', x=-1767.50, y=63.00, z=1121.70] died, message: 'Fisherman was shot by Pillager'
+[18Oct2025 20:11:33.033] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/43194, l='ServerLevel[world]', x=-1773.93, y=69.80, z=1082.41] died, message: 'Farmer was shot by Pillager'
+[18Oct2025 20:11:42.131] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/43183, l='ServerLevel[world]', x=-1770.87, y=66.50, z=1132.70] died, message: 'Farmer was shot by Pillager'
+[18Oct2025 20:12:31.194] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: walx[/127.195.97.6:40701] logged in with entity id 44156 at (896.2497878883499, 65.31470334025373, 141.16740596421417)
+[18Oct2025 20:12:31.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: walx joined the game
+[18Oct2025 20:12:34.643] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of walx (20)
+[18Oct2025 20:12:34.643] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to walx
+[18Oct2025 20:12:41.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> co;o se unio ethan
+[18Oct2025 20:12:45.647] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/43193, l='ServerLevel[world]', x=-1772.36, y=63.00, z=1091.52] died, message: 'Farmer was shot by Pillager'
+[18Oct2025 20:15:40.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <walx> quien fue el mmg que encontro la base
+[18Oct2025 20:16:15.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <walx> quien fue?
+[18Oct2025 20:16:45.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <walx> tt
+[18Oct2025 20:17:00.135] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: walx lost connection: Disconnected
+[18Oct2025 20:17:00.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: walx left the game
+[18Oct2025 20:17:00.136] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client walx
+[18Oct2025 20:17:28.285] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2d292fcd[id=<null>,name=megatuber06,properties={},legacy=false] (/127.136.144.194:32927) lost connection: Disconnected
+[18Oct2025 20:17:44.366] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6b7d57e2[id=<null>,name=megatuber06,properties={},legacy=false] (/127.136.144.194:58493) lost connection: Disconnected
+[18Oct2025 20:18:39.048] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: megatuber06[/127.136.144.194:54213] logged in with entity id 48186 at (164.51434200292883, -3.125, 3605.300000011921)
+[18Oct2025 20:18:39.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 joined the game
+[18Oct2025 20:18:39.759] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of megatuber06 (20)
+[18Oct2025 20:18:39.759] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to megatuber06
+[18Oct2025 20:18:48.895] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-1483, y=30, z=1403}
+[18Oct2025 20:19:35.753] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-1459, y=20, z=1028}
+[18Oct2025 20:21:23.587] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-1424, y=32, z=1170}
+[18Oct2025 20:22:11.936] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-1417, y=18, z=1110}
+[18Oct2025 20:23:19.539] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-1403, y=-48, z=1222}
+[18Oct2025 20:24:03.495] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-1361, y=30, z=1112}
+[18Oct2025 20:29:42.375] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xClas06 lost connection: Disconnected
+[18Oct2025 20:29:42.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xClas06 left the game
+[18Oct2025 20:29:42.376] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client xClas06
+[18Oct2025 20:31:45.284] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xClas06[/127.12.45.0:38627] logged in with entity id 52156 at (-1560.6856768089544, -58.0, 1219.300000011921)
+[18Oct2025 20:31:45.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xClas06 joined the game
+[18Oct2025 20:31:46.437] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of xClas06 (20)
+[18Oct2025 20:31:46.438] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to xClas06
+[18Oct2025 20:33:38.283] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xClas06 lost connection: Disconnected
+[18Oct2025 20:33:38.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xClas06 left the game
+[18Oct2025 20:33:38.284] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client xClas06
+[18Oct2025 20:34:34.835] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: walx[/127.195.97.6:47407] logged in with entity id 53197 at (894.9453671709016, 69.0, 147.53080475924577)
+[18Oct2025 20:34:34.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: walx joined the game
+[18Oct2025 20:34:35.943] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of walx (20)
+[18Oct2025 20:34:35.943] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to walx
+[18Oct2025 20:37:01.326] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@76f4fab5[id=<null>,name=xClas06,properties={},legacy=false] (/127.12.45.0:54081) lost connection: Disconnected
+[18Oct2025 20:37:06.943] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xClas06[/127.12.45.0:41921] logged in with entity id 54466 at (-1559.3367300634288, -58.0, 1219.300000011921)
+[18Oct2025 20:37:06.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xClas06 joined the game
+[18Oct2025 20:37:08.407] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of xClas06 (20)
+[18Oct2025 20:37:08.407] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to xClas06
+[18Oct2025 20:38:50.487] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xClas06 lost connection: Disconnected
+[18Oct2025 20:38:50.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xClas06 left the game
+[18Oct2025 20:38:50.488] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client xClas06
+[18Oct2025 20:41:20.942] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xClas06[/127.12.45.0:58877] logged in with entity id 57275 at (-1566.9008625712645, -58.0, 1219.9367478944496)
+[18Oct2025 20:41:20.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xClas06 joined the game
+[18Oct2025 20:41:22.264] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of xClas06 (20)
+[18Oct2025 20:41:22.265] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to xClas06
+[18Oct2025 20:43:47.915] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[18Oct2025 20:44:08.318] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xClas06 lost connection: Disconnected
+[18Oct2025 20:44:08.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xClas06 left the game
+[18Oct2025 20:44:08.320] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client xClas06
+[18Oct2025 20:50:47.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> no
+[18Oct2025 20:50:55.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <walx> no que?
+[18Oct2025 20:50:56.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> esta al reves
+[18Oct2025 20:50:59.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <walx> a
+[18Oct2025 20:51:03.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> ethan?
+[18Oct2025 20:51:06.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <walx> que?
+[18Oct2025 20:51:12.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> cuanto tu llevas aqui?
+[18Oct2025 20:51:19.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <walx> unos minutos
+[18Oct2025 20:51:22.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> jevi
+[18Oct2025 20:51:34.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> estamos en llamada ethan
+[18Oct2025 20:51:41.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> por el grupo
+[18Oct2025 20:52:02.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <walx> no puedo vc
+[18Oct2025 20:52:06.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> ou
+[18Oct2025 20:56:23.137] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=1048, y=-25, z=632}
+[18Oct2025 20:56:38.278] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: walx lost connection: Disconnected
+[18Oct2025 20:56:38.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: walx left the game
+[18Oct2025 20:56:38.279] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client walx
+[18Oct2025 21:03:09.280] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: walx[/127.195.97.6:36551] logged in with entity id 66718 at (906.401308795825, 66.0, 470.5170275648892)
+[18Oct2025 21:03:09.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: walx joined the game
+[18Oct2025 21:03:09.862] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of walx (20)
+[18Oct2025 21:03:09.862] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to walx
+[18Oct2025 21:03:13.493] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xClas06[/127.12.45.0:45663] logged in with entity id 67023 at (-1571.997161238917, -58.0, 1222.0305497909774)
+[18Oct2025 21:03:13.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xClas06 joined the game
+[18Oct2025 21:03:14.288] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of xClas06 (20)
+[18Oct2025 21:03:14.288] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to xClas06
+[18Oct2025 21:04:02.903] [Worker-Main-11/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=1039, y=-48, z=719}
+[18Oct2025 21:04:24.799] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=1136, y=19, z=561}
+[18Oct2025 21:04:24.800] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=1137, y=19, z=561}
+[18Oct2025 21:04:48.597] [Worker-Main-2/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=1007, y=35, z=869}
+[18Oct2025 21:05:09.697] [Server thread/WARN] [net.geforcemods.securitycraft.SecurityCraft/]: Player "megatuber06" tried to enter a passcode into "Keypad Door" at position [ResourceKey[minecraft:dimension / minecraft:overworld] BlockPos{x=163, y=-3, z=3609}] too quickly!
+[18Oct2025 21:05:48.697] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2038ms or 40 ticks behind
+[18Oct2025 21:08:51.849] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=973, y=-14, z=-287}
+[18Oct2025 21:09:18.193] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! 6.145301525830575,0.9769118908984495,8.049639221700545
+[18Oct2025 21:09:25.202] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=684, y=-44, z=-354}
+[18Oct2025 21:09:47.691] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=663, y=-39, z=-434}
+[18Oct2025 21:09:47.691] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=664, y=-39, z=-434}
+[18Oct2025 21:12:01.891] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xClas06 lost connection: Disconnected
+[18Oct2025 21:12:01.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xClas06 left the game
+[18Oct2025 21:12:01.891] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client xClas06
